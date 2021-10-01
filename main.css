@@ -8,14 +8,14 @@ body {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3.5em;
   text-align: center;
   text-shadow: 2px 2px 4px black;
 }
 
 p {
   color: white;
-  font-size: 1.4em;
+  font-size: 1.3em;
   text-align: center;
   text-shadow: 2px 2px 4px black;
 }
@@ -27,13 +27,14 @@ div.flexContainer {
 }
 
 div.imageContainer {
-  display: flex;
   justify-content: center;
   flex-grow: 1;
 }
 
 div.pageContainer {
-  display:
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 75%;
 }
 
 img.main {
@@ -42,4 +43,14 @@ img.main {
   padding: 20px;
   border: 2px solid white;
   margin: 10px;
+}
+
+img.page {
+  display: block;
+  width: 50%;
+  height: auto;
+  border: 2px solid white;
+  padding: 10px;
+  align: center;
+  margin: auto;
 }
