@@ -8,16 +8,18 @@ body {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 2.5em;
   text-align: center;
   text-shadow: 2px 2px 4px black;
 }
 
 p {
   color: white;
-  font-size: 1.3em;
-  text-align: center;
+  font-size: 1.2em;
   text-shadow: 2px 2px 4px black;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-indent: 2em;
 }
 
 div.flexContainer {
@@ -47,10 +49,16 @@ img.main {
 
 img.page {
   display: block;
-  width: 50%;
+  max-width: 100%;
   height: auto;
   border: 2px solid white;
   padding: 10px;
-  align: center;
   margin: auto;
 }
+
+/* You want to make a better go back button. Need to find/make an image
+
+a.goback {
+  position: fixed;
+
+}  */
